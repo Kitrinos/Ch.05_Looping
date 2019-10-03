@@ -27,12 +27,12 @@
      10 down to, and including, 0. Then print the words Blast off! Remember, use
      a WHILE loop, don't use a FOR loop.
 '''
-
-
-
-
-
-
+var = 10                    
+while var > -0:              
+   print (var)
+   var = var -1
+   if var == 0:
+    print ("Blast Off!")
 '''
   4. Write a program that prints a random integer from 1 to 10 (inclusive).
 '''
