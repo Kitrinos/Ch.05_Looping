@@ -10,12 +10,10 @@ Add conditional statements to figure out who wins and keep the records
 When the user quits print a win/loss record
 
 '''
-
 import random
 u = 0
 quit = "no"
 
-number= [1, 2, 3]
 i = random.randrange(3)
 
 if i == 1:
@@ -77,11 +75,3 @@ while quit.lower() != "yes" or quit.lower() != "y":
                 print("The bot chose scissors! You lose!")
     else:
         print("sorry try again")
-
-
-
-
-
-
-
-
