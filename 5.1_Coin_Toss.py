@@ -13,3 +13,11 @@ tails = 0
 for i in range (0,50):
   i = random.randrange(0,51)
   print(i)
+  
+#   if i%2 == 1:
+#     tails+= 1
+# else :
+#     head+= 1
+
+# print(head)
+# print(tails)
