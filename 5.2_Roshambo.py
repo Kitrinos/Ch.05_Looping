@@ -11,7 +11,17 @@ When the user quits print a win/loss record
 
 '''
 
+import random
 
+number= [1, 2, 3]
+i = random.randrange(3)
+
+if i == 1:
+  print("rock")
+elif i == 2:
+  print("paper")
+else:
+  print("scissors")
 
 
 
