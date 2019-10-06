@@ -41,14 +41,43 @@ while x.lower() != "yes" or x.lower() != "y":
 #Game Start
 
 print("\nYou are in a small town 200 miles away from the temple.")
+while done == False:
+    print("\nYou have traveled", miles, "altogether\n")
+    print("What is your command")
+    an = input("Quit | Status check | Full speed | Normal speed | Stop | Eat a bird\n")
 
-print("\nYou have traveled", miles, "altogether\n")
-print("What is your command")
-an = input("Quit | Status check | Full speed | Normal speed | Stop | Eat a bird\n")
+    if an.lower() == "status check":
+        print("Miles traveled :", miles)
+        print("Birds :",birds)
+        print("The Angry Guild is",ag ," miles behind you")
+    elif an.lower() == "quit":
+        print("You Quit")
+   
+#everything after the status check does not work
+        
+# print("\nYou are in a small town 200 miles away from the temple.")
+# while done == False:
+#     print("\nYou have traveled", miles, "altogether\n")
+#     print("What is your command")
+#     an = input("Quit | Status check | Full speed | Normal speed | Stop | Eat a bird \n")
 
-if an.lower() == "status check":
-    print("Miles traveled :", miles)
-    print("Birds :",birds)
-    print("The Angry Guild is",ag ," miles behind you")
-elif an.lower() == "Quit":
-    print
+    
+#     if an.lower() == "quit":
+#         print("You quit")
+#     elif an.lower() == "status check":
+#         print("Miles traveled :", miles)
+#         print("Birds :",birds)
+#         print("The Angry Guild is",ag ," miles behind you")
+#     elif an.lower == "full speed":
+#         print("Full speed ahead.")
+#         print("Becarefull of your camel, they might get tired")
+#     elif an.lower == "normal speed":
+#         print("Your camel thanks you! Normal speed ahead")
+#     elif an.lower == "Stop":
+#         print("You decided to stop. But dont stop for too long, you might just get lost....")
+#     elif an.lower() == "eat a bird":
+#         print("You eat a bird")
+#         birds-= 1
+#         print("becarefull not to run out of birds. You have", birds, "left")
+#     else:
+#         print("That is not a option. Please try again before you die :)") 
