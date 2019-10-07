@@ -9,6 +9,7 @@ miles = 0
 birds = 3
 quit = "no"
 ag = 10
+done = False
 
 #The title
 string = " Mortal Misadventure"
