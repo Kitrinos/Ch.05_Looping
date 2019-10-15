@@ -8,9 +8,9 @@
 # total = 0
 #
 # for i in range(3):
-#     x = input("Enter a number: ")
-#     total = total + i
-# print("The total is:", x)
+#     x = int(input("Enter a number: "))
+#     total+=x
+# print("The total is:", total)
 
 '''
   2. Write a Python program that will use a FOR loop to print the even
@@ -48,3 +48,23 @@
      if statements.
       
 '''
+
+# print("This program takes seven numbers and returns the sum.")
+# total = 0
+# p = 0
+# n = 0
+# z = 0
+#
+# for i in range(7):
+#     x = int(input("Enter a number: "))
+#     total+=x
+#     if x > 0:
+#         p+=1
+#     elif x == 0:
+#         z+= 1
+#     else:
+#         n+= 1
+# print("The total is:", total)
+# print("The total number of positive numbers are :",p)
+# print("The total number of zero's are :",z)
+# print("The total number of even negative numbers are :",n)
